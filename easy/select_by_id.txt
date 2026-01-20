@@ -1,0 +1,17 @@
+/* 
+SELECT BY ID
+--Query all columns for a city in CITY with the ID 1661.
+*/
+
+---
+===================================================================
+CODE BLOCK BELOW
+===================================================================
+---
+
+SET NOCOUNT ON;
+SELECT *
+FROM city
+WHERE id = 1661
+
+go
